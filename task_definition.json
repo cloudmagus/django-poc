@@ -1,9 +1,9 @@
 {
-  "family": "application-stack",
+  "family": "application-stack-mdpii",
   "containerDefinitions": [
       {
-          "name": "django-poc",
-          "image": "381558044129.dkr.ecr.eu-west-1.amazonaws.com/django-poc",
+          "name": "mdp-pii",
+          "image": "381558044129.dkr.ecr.eu-west-1.amazonaws.com/mdp-pii:latest",
           "cpu": 0,
           "memory": 2048,
           "portMappings": [
